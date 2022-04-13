@@ -1,6 +1,10 @@
-export function download(event) {
+export function download(_event) {
   const filename = this.data.name;
   const text = this.data.input;
+
+  if (!filename || !text) {
+    return alert("please choose a file");
+  }
 
   const element = document.createElement("a");
 

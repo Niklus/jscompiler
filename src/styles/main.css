@@ -1,5 +1,9 @@
 @import "https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css";
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
 }
@@ -20,17 +24,48 @@ h1 {
   text-align: center;
 }
 
+.home {
+  margin-top: 150px;
+}
+
 .inputs {
-  margin-top: 200px;
   display: flex;
   justify-content: center;
   border: dotted #34c2ef 1px;
+  flex-wrap: wrap;
   align-items: center;
-  padding: 100px;
   margin-left: 300px;
   margin-right: 300px;
+  padding: 100px;
 }
 
 #file-selector {
   font-size: 24px;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info p {
+  margin: 20px;
+  font-size: 20px;
+}
+
+.about {
+  max-width: 600px;
+  margin: 150px auto;
+  border: dotted #34c2ef 1px;
+  padding: 18px;
+  font-size: 24px;
+}
+
+.about p {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
 }
