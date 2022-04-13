@@ -2,8 +2,6 @@
   "name": "jscompiler",
   "version": "1.0.0",
   "description": "Compiler for modern js to old js",
-  "main": "index.js",
-  "source": "src/index.html",
   "author": "Nicholas Otieno",
   "license": "MIT"
 }
