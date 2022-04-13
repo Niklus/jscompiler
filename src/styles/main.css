@@ -20,6 +20,10 @@ h1 {
   font-size: 35px;
 }
 
+h2 {
+  color: #155367 !important;
+}
+
 .pages {
   text-align: center;
 }
@@ -32,6 +36,7 @@ h1 {
   display: flex;
   justify-content: center;
   border: dotted #34c2ef 1px;
+  border-radius: 10px;
   flex-wrap: wrap;
   align-items: center;
   margin-left: 300px;
@@ -58,6 +63,7 @@ h1 {
   max-width: 600px;
   margin: 150px auto;
   border: dotted #34c2ef 1px;
+  border-radius: 10px;
   padding: 18px;
   font-size: 24px;
 }
