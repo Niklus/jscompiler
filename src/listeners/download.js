@@ -1,6 +1,6 @@
 export function download(_event) {
   const filename = this.data.name;
-  const text = this.data.input;
+  const text = this.data.output;
 
   if (!filename || !text) {
     return alert("please choose a file");

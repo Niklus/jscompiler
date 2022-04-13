@@ -1,6 +1,6 @@
 export const data = {
   title: "jsCompiler",
   minify: true,
-  input: "",
+  output: "",
   files: [],
 };
