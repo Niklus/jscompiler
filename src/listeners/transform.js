@@ -5,6 +5,7 @@ export async function transform(event) {
   this.data.name = event.target.files[0].name;
   this.data.files = event.target.files;
   this.data.output = this.data.minify ? minify(compile(text)) : compile(text);
+  this.data.disabled = false;
 }
 
 function compile(input) {

@@ -3,4 +3,5 @@ export const data = {
   minify: true,
   output: "",
   files: [],
+  disabled: true,
 };
